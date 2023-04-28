@@ -18,7 +18,6 @@ const bot = new Bot(process.env.BOT_TOKEN || "");
 bot.api.setMyCommands([
   {command: '/start', description: 'Initial command to start'},
   {command: '/info', description: 'Get Information'},
-  {command: '/chat', description: 'Hey, I\'m T-AI, and still learning'},
 ])
 
 const replyWithIntro = async ctx => {
